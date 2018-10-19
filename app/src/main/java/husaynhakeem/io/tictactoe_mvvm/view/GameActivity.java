@@ -50,4 +50,8 @@ public class GameActivity extends AppCompatActivity implements Observer {
         GameEndDialog dialog = GameEndDialog.newInstance(this, (String) arg);
         dialog.show(getSupportFragmentManager(), GAME_END_DIALOG_TAG);
     }
+
+    public void calculate(){
+        System.out.println("Value");
+    }
 }
