@@ -48,7 +48,7 @@ dependencies {
     compile supportDependencies.design
     compile supportDependencies.gridLayout
     compile supportDependencies.annotations
-    
+
 
     testCompile testingDependencies.junit
     androidTestCompile(testingDependencies.barista) {

@@ -53,5 +53,6 @@ public class GameActivity extends AppCompatActivity implements Observer {
 
     public void calculate(){
         System.out.println("Value");
+        System.out.println("G Bhai");
     }
 }
